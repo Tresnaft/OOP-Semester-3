@@ -1,0 +1,6 @@
+projectKey=Pertemuan9
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=Pertemuan9
+ceTaskId=9b143dc3-dbaa-43cb-8a28-bbd5b28d6f34
+ceTaskUrl=http://localhost:9000/api/ce/task?id=9b143dc3-dbaa-43cb-8a28-bbd5b28d6f34

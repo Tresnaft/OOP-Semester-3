@@ -1,3 +1,5 @@
+package com.jtk.pertemuan9;
+
 public class Commission extends Hourly {
     private double totalSales;
     private double commissionRate;

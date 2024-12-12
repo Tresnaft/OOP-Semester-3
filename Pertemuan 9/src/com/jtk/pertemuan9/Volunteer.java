@@ -1,3 +1,5 @@
+package com.jtk.pertemuan9;
+
 public class Volunteer extends StaffMember
 {
     //----------------------------------------------------------

@@ -1,3 +1,5 @@
+package com.jtk.pertemuan9;
+
 public class Hourly extends Employee
 {
     private int hoursWorked;
@@ -25,6 +27,7 @@ public class Hourly extends Employee
     //----------------------------------------------------------
     //  Computes and returns the pay for this hourly employee.
     //----------------------------------------------------------
+    @Override
     public double pay()
     {
         double payment = payRate * hoursWorked;
@@ -37,6 +40,7 @@ public class Hourly extends Employee
     //  Returns information about this hourly employee as a
     //  string.
     //----------------------------------------------------------
+    @Override
     public String toString()
     {
         String result = super.toString();

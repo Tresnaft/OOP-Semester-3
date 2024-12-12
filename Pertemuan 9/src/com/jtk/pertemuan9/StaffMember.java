@@ -1,4 +1,6 @@
-abstract public class StaffMember {
+package com.jtk.pertemuan9;
+
+abstract class StaffMember {
     protected String name;
     protected String address;
     protected String phone;
@@ -7,7 +9,7 @@ abstract public class StaffMember {
     //  Constructor: Sets up this staff member using the
     //  specified information.
     //----------------------------------------------------------
-    public StaffMember(String eName, String eAddress,
+    protected StaffMember(String eName, String eAddress,
                        String ePhone) {
         name = eName;
         address = eAddress;

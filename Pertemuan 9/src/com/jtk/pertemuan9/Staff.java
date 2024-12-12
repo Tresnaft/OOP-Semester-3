@@ -1,7 +1,8 @@
+package com.jtk.pertemuan9;
+
 public class Staff
 {
     private StaffMember[] staffList;
-
     //----------------------------------------------------------
     //  Constructor: Sets up the list of staff members.
     //----------------------------------------------------------
@@ -47,16 +48,16 @@ public class Staff
 
         for (int count=0; count < staffList.length; count++)
         {
-            System.out.println (staffList[count]); // polymorphic
+            System.out.println(staffList[count]); // polymorphic
 
             amount = staffList[count].pay();  // polymorphic
 
             if (amount == 0.0)
-                System.out.println ("Thanks!");
+                System.out.println("Thanks!");
             else
-                System.out.println ("Paid: " + amount);
+                System.out.println("Paid: " + amount);
 
-            System.out.println ("------------------------------");
+            System.out.println("------------------------------");
         }
     }
 }

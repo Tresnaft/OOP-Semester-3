@@ -1,3 +1,5 @@
+package com.jtk.pertemuan9;
+
 public class Employee extends StaffMember
 {
     protected String socialSecurityNumber;
@@ -19,6 +21,7 @@ public class Employee extends StaffMember
     //----------------------------------------------------------
     //  Returns information about an employee as a string.
     //----------------------------------------------------------
+    @Override
     public String toString()
     {
         String result = super.toString();

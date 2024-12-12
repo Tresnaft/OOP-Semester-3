@@ -3,7 +3,7 @@
 //
 //  Demonstrates polymorphism via inheritance.
 //*************************************************************
-
+import com.jtk.pertemuan9.*;
 public class Firm
 {
     //----------------------------------------------------------
